@@ -14,7 +14,7 @@ spec:
         app: argocd-test-app
     spec:
       containers:
-      - image: ghcr.io/hayunofek/argocd-test
+      - image: ghcr.io/hayunofek/argocd-test:master
         name: argocd-test-app
         ports:
         - containerPort: 80
